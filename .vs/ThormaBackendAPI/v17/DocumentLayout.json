@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|c:\\users\\user\\source\\repos\\thormabackendapi\\thormabackendapi\\models\\kep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|solutionrelative:thormabackendapi\\models\\kep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|c:\\users\\user\\source\\repos\\thormabackendapi\\thormabackendapi\\models\\festo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|solutionrelative:thormabackendapi\\models\\festo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|c:\\users\\user\\source\\repos\\thormabackendapi\\thormabackendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|solutionrelative:thormabackendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 215,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +43,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{73068c07-fba1-453f-99ae-6edf972119b2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Kep.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\ThormaBackendAPI\\Models\\Kep.cs",
+              "RelativeDocumentMoniker": "ThormaBackendAPI\\Models\\Kep.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\ThormaBackendAPI\\Models\\Kep.cs",
+              "RelativeToolTip": "ThormaBackendAPI\\Models\\Kep.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowBUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T13:47:30.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Festo.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\ThormaBackendAPI\\Models\\Festo.cs",
+              "RelativeDocumentMoniker": "ThormaBackendAPI\\Models\\Festo.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\ThormaBackendAPI\\Models\\Festo.cs",
+              "RelativeToolTip": "ThormaBackendAPI\\Models\\Festo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T13:46:51.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\ThormaBackendAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ThormaBackendAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\ThormaBackendAPI\\appsettings.json",
+              "RelativeToolTip": "ThormaBackendAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-15T13:43:35.626Z",
+              "EditorCaption": ""
             }
           ]
         }

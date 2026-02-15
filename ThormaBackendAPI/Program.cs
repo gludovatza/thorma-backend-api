@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using ThormaBackendAPI.Data;
+
 namespace ThormaBackendAPI
 {
     public class Program
@@ -13,6 +16,9 @@ namespace ThormaBackendAPI
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddDbContext<AppDbContext>(options =>
+                options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection")!));
 
             var app = builder.Build();
 
