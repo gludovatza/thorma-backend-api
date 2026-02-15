@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThormaBackendAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4482276e308edc2c74d472915145c45a87e9c1c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThormaBackendAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThormaBackendAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
