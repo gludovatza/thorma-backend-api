@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|c:\\users\\user\\source\\repos\\thormabackendapi\\thormabackendapi\\controllers\\kepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|solutionrelative:thormabackendapi\\controllers\\kepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|c:\\users\\user\\source\\repos\\thormabackendapi\\thormabackendapi\\controllers\\kepekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|solutionrelative:thormabackendapi\\controllers\\kepekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|c:\\users\\user\\source\\repos\\thormabackendapi\\thormabackendapi\\controllers\\feladatokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|solutionrelative:thormabackendapi\\controllers\\feladatokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|c:\\users\\user\\source\\repos\\thormabackendapi\\thormabackendapi\\controllers\\festokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|solutionrelative:thormabackendapi\\controllers\\festokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|c:\\users\\user\\source\\repos\\thormabackendapi\\thormabackendapi\\thormabackendapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|solutionrelative:thormabackendapi\\thormabackendapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A08CDF59-7176-48F4-81C7-E4A0F4575F5E}|ThormaBackendAPI\\ThormaBackendAPI.csproj|c:\\users\\user\\source\\repos\\thormabackendapi\\thormabackendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 215,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,12 +66,25 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FeladatokController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\ThormaBackendAPI\\Controllers\\FeladatokController.cs",
+              "RelativeDocumentMoniker": "ThormaBackendAPI\\Controllers\\FeladatokController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\ThormaBackendAPI\\Controllers\\FeladatokController.cs",
+              "RelativeToolTip": "ThormaBackendAPI\\Controllers\\FeladatokController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T16:21:46.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "KepController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\ThormaBackendAPI\\Controllers\\KepController.cs",
-              "RelativeDocumentMoniker": "ThormaBackendAPI\\Controllers\\KepController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\ThormaBackendAPI\\Controllers\\KepController.cs",
-              "RelativeToolTip": "ThormaBackendAPI\\Controllers\\KepController.cs",
+              "Title": "KepekController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\ThormaBackendAPI\\Controllers\\KepekController.cs",
+              "RelativeDocumentMoniker": "ThormaBackendAPI\\Controllers\\KepekController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\ThormaBackendAPI\\Controllers\\KepekController.cs*",
+              "RelativeToolTip": "ThormaBackendAPI\\Controllers\\KepekController.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-15T14:10:29.486Z",
@@ -79,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FestokController.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\ThormaBackendAPI\\Controllers\\FestokController.cs",
               "RelativeDocumentMoniker": "ThormaBackendAPI\\Controllers\\FestokController.cs",
@@ -88,19 +101,6 @@
               "ViewState": "AgIAAE8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-15T14:06:04.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ThormaBackendAPI.http",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\ThormaBackendAPI\\ThormaBackendAPI.http",
-              "RelativeDocumentMoniker": "ThormaBackendAPI\\ThormaBackendAPI.http",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ThormaBackendAPI\\ThormaBackendAPI\\ThormaBackendAPI.http",
-              "RelativeToolTip": "ThormaBackendAPI\\ThormaBackendAPI.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-02-15T14:00:59.607Z",
               "EditorCaption": ""
             },
             {

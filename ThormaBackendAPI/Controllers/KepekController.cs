@@ -12,11 +12,11 @@ namespace ThormaBackendAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class KepController : ControllerBase
+    public class KepekController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public KepController(AppDbContext context)
+        public KepekController(AppDbContext context)
         {
             _context = context;
         }
