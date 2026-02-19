@@ -71,6 +71,7 @@ namespace ThormaBackendAPI
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
 
