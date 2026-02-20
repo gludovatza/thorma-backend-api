@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using System.Data;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -43,11 +44,12 @@ public class AuthController : ControllerBase
         var ok = await _users.CheckPasswordAsync(user, req.Password);
         if (!ok) return Unauthorized();
 
-        var token = CreateJwt(user);
+        var roles = await _users.GetRolesAsync(user);
+        var token = CreateJwt(user, roles);
         return Ok(new { token });
     }
 
-    private string CreateJwt(IdentityUser user)
+    private string CreateJwt(IdentityUser user, IEnumerable<string> roles)
     {
         var claims = new List<Claim>
         {
@@ -55,6 +57,12 @@ public class AuthController : ControllerBase
             new Claim(JwtRegisteredClaimNames.Email, user.Email ?? ""),
             new Claim(JwtRegisteredClaimNames.UniqueName, user.UserName ?? "")
         };
+
+        // Role claim-ek (ez kell a [Authorize(Roles="Admin")] működéshez)
+        foreach (var role in roles)
+        {
+            claims.Add(new Claim(ClaimTypes.Role, role));
+        }
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_cfg["Jwt:Key"]!));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
