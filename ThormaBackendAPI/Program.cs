@@ -11,7 +11,7 @@ namespace ThormaBackendAPI
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -101,6 +101,8 @@ namespace ThormaBackendAPI
 
 
             app.MapControllers();
+
+            await IdentitySeeder.SeedAsync(app.Services, app.Configuration);
 
             app.Run();
         }
