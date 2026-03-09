@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ThormaBackendAPI.Data;
 
@@ -10,9 +11,11 @@ using ThormaBackendAPI.Data;
 namespace ThormaBackendAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260308142829_AddLogsTable")]
+    partial class AddLogsTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -82,26 +85,10 @@ namespace ThormaBackendAPI.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("Action")
-                        .HasMaxLength(50)
-                        .HasColumnType("varchar(50)");
-
-                    b.Property<string>("EntityId")
-                        .HasMaxLength(50)
-                        .HasColumnType("varchar(50)");
-
-                    b.Property<string>("EntityType")
-                        .HasMaxLength(50)
-                        .HasColumnType("varchar(50)");
-
                     b.Property<string>("HttpMethod")
                         .IsRequired()
                         .HasMaxLength(10)
                         .HasColumnType("varchar(10)");
-
-                    b.Property<string>("IpAddress")
-                        .HasMaxLength(50)
-                        .HasColumnType("varchar(50)");
 
                     b.Property<bool>("IsAuthFailure")
                         .HasColumnType("tinyint(1)");
@@ -115,12 +102,6 @@ namespace ThormaBackendAPI.Migrations
                         .HasMaxLength(1000)
                         .HasColumnType("varchar(1000)");
 
-                    b.Property<string>("NewValue")
-                        .HasColumnType("text");
-
-                    b.Property<string>("OldValue")
-                        .HasColumnType("text");
-
                     b.Property<string>("Path")
                         .IsRequired()
                         .HasMaxLength(500)
@@ -131,10 +112,6 @@ namespace ThormaBackendAPI.Migrations
 
                     b.Property<DateTime>("Timestamp")
                         .HasColumnType("datetime(6)");
-
-                    b.Property<string>("UserAgent")
-                        .HasMaxLength(500)
-                        .HasColumnType("varchar(500)");
 
                     b.Property<string>("UserEmail")
                         .HasColumnType("longtext");

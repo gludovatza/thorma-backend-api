@@ -6,6 +6,8 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using ThormaBackendAPI.Data;
+using ThormaBackendAPI.Middleware;
+using ThormaBackendAPI.Services;
 
 namespace ThormaBackendAPI
 {
@@ -85,6 +87,10 @@ namespace ThormaBackendAPI
 
             builder.Services.AddAuthorization();
 
+            // HttpContextAccessor és AuditLogger
+            builder.Services.AddHttpContextAccessor();
+            builder.Services.AddScoped<IAuditLogger, AuditLogger>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -95,6 +101,9 @@ namespace ThormaBackendAPI
             }
 
             app.UseHttpsRedirection();
+
+            // Custom Logging Middleware
+            app.UseMiddleware<LoggingMiddleware>();
 
             app.UseAuthentication();
             app.UseAuthorization();
